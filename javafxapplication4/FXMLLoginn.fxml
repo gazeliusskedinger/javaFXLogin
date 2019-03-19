@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication4.FXMLDocumentController">
+  <children>
+    <Label fx:id="label" layoutX="61.0" layoutY="52.0" minHeight="15.132720947265625" minWidth="69.0" prefHeight="16.0" prefWidth="208.0" text="" />
+    <PasswordField fx:id="pwf" layoutX="61.0" layoutY="109.0" prefWidth="200.0" promptText="Password" style=""/>
+    <TextField fx:id="tf" layoutX="61.0" layoutY="68.0" prefWidth="200.0" promptText="User" />
+    <Text fill="BLACK" layoutX="142.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+    <Button fx:id="button" layoutX="107.0" layoutY="145.0" mnemonicParsing="false" onAction="#loginHandleButtonAction" prefWidth="105.0" style="" text="Login" />
+  </children>
+</AnchorPane>

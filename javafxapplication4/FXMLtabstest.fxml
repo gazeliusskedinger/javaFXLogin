@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxapplication4.FXMLDocumentController">
+  <children>
+    <TabPane layoutX="0.0" layoutY="0.0" prefHeight="400.0000999999975" prefWidth="600.0" style="&#10;.tab-pane:top *.tab-header-area {&#10;    -fx-background-insets: 0, 0 0 1 0;&#10; /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */&#10;    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */&#10;}&#10;.tab-pane .tab-header-area .tab-header-background {&#10;    -fx-opacity: 0;&#10;}&#10;&#10;.tab-pane&#10;{&#10;    -fx-tab-min-width:90px;&#10;}&#10;&#10;.tab{&#10;    -fx-background-insets: 0 1 0 1,0,0;&#10;}&#10;.tab-pane .tab&#10;{&#10;    -fx-background-color: #e6e6e6;&#10;&#10;}&#10;&#10;.tab-pane .tab:selected&#10;{&#10;    -fx-background-color: #3c3c3c;&#10;}&#10;&#10;.tab .tab-label { &#10;    -fx-alignment: CENTER;&#10;    -fx-text-fill: #828282;&#10;    -fx-font-size: 12px;&#10;    -fx-font-weight: bold;&#10;}&#10;&#10;.tab:selected .tab-label { &#10;    -fx-alignment: CENTER;&#10;    -fx-text-fill: #96b946;&#10;}" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab style="" text="Untitled Tab 1">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style=".tab-pane .tab-header-area .tab-header-background {&#10;    -fx-opacity: 0;&#10;}&#10;&#10;.tab-pane&#10;{&#10;    -fx-tab-min-width:90px;&#10;}&#10;&#10;.tab{&#10;    -fx-background-insets: 0 1 0 1,0,0;&#10;}&#10;.tab-pane .tab&#10;{&#10;    -fx-background-color: #e6e6e6;&#10;&#10;}&#10;&#10;.tab-pane .tab:selected&#10;{&#10;    -fx-background-color: #3c3c3c;&#10;}&#10;&#10;.tab .tab-label { &#10;    -fx-alignment: CENTER;&#10;    -fx-text-fill: #828282;&#10;    -fx-font-size: 12px;&#10;    -fx-font-weight: bold;&#10;}&#10;&#10;.tab:selected .tab-label { &#10;    -fx-alignment: CENTER;&#10;    -fx-text-fill: #96b946;&#10;}">
+              <children>
+                <Button layoutX="185.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonAction4" text="Button" />
+                <Label fx:id="label3" layoutX="200.0" layoutY="75.0" text="" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Untitled Tab 2">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>
